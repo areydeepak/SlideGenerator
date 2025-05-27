@@ -2,6 +2,7 @@
 
 AI-powered presentation generator using OpenAI and python-pptx. This application automatically creates PowerPoint presentations from topics using Large Language Models.
 
+
 ## 🏗️ Architecture
 
 ```
@@ -35,6 +36,9 @@ AI-powered presentation generator using OpenAI and python-pptx. This application
           ▼
     Slide (.pptx) File Store
 ```
+
+## Testing Endpoint : http://localhost:8000/docs/
+
 
 ## 🚀 Features
 
@@ -111,7 +115,7 @@ README.md
    python app/main.py
    ```
 
-The API will be available at `http://localhost:8000`
+The API will be available at `http://localhost:8000/docs`
 
 ## 📚 API Endpoints
 
