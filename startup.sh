@@ -33,9 +33,6 @@ if [ ! -d "presentations" ]; then
     mkdir -p presentations
 fi
 
-# Run database migrations
-echo "🗄️ Running database migrations..."
-alembic upgrade head
 
 # Check if Redis is running
 redis-cli ping > /dev/null 2>&1
